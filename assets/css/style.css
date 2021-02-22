@@ -1,5 +1,5 @@
 body{
-    background:url("../images/background.jpg") no-repeat;
+    background:/*linear-gradient(45deg, rgba(255, 255, 255, .8), rgba(215, 240, 250, .5)),*/ url("../images/background.jpg") no-repeat;
     background-size:100%;
     margin:0;
     padding:0;
@@ -30,7 +30,8 @@ main{
                          "main_section"
                          "catalog_btn"
                          "images"
-                         "about";
+                         "about"
+                         "request";
 }
 
 menu{
@@ -120,7 +121,7 @@ menu{
     max-width:1400px;
     height:20vh;
     margin:0 auto;
-    margin-bottom:100px; 
+    margin-bottom:80px; 
 }
 img{
     width:300px;
@@ -141,13 +142,13 @@ img{
 .about{
     grid-area:about;
     width:80%;
-    height:380px;
+    height:350px;
     margin:0 auto;
     background:rgba(1, 179, 158, 0.80);
-    margin-bottom:50px;
+    margin-bottom:30px;
 }
 .about h3{
-    margin-top:50px;
+    margin-top:20px;
     text-align: center;
     font-family: 'Fredoka One', cursive;
     margin-bottom:50px;
@@ -178,9 +179,26 @@ img{
 }
 
 .request{
+    grid-area:request;
     width:200px;
-    height:100px;
+    height:120px;
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
     margin:0 auto;
+    margin-bottom:30px;
+}
+.request h3{
+    text-align: center;
+    color:#07665e;
+}
+.request input{
+    display:block;
+    width:120px;
+    margin:0 auto;
+}
+footer{
+    background:rgba(1, 179, 158, 0.60);
+    height:50px;
+    font-family: 'Merienda', cursive;
 }
