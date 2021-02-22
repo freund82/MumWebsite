@@ -145,6 +145,7 @@ img{
 }
 #catalog_btn{
     grid-area:catalog_btn;
+    display:block;
     background:#07665E;
     border-radius:20px;
     padding:10px;

@@ -1,0 +1,133 @@
+body{
+    background:/*linear-gradient(45deg, rgba(255, 255, 255, .8), rgba(215, 240, 250, .5)),*/ url("../images/background.jpg") no-repeat;
+    background-size:100%;
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+}
+
+*,
+:before,
+:after{
+    box-sizing: border-box;
+}
+footer{
+    background:rgba(1, 179, 158, 0.60);
+    height:50px;
+    font-family: 'Merienda', cursive;
+}
+
+menu{
+    grid-area:menu;
+    background:rgba(1, 179, 158, 0.60);
+    margin-top:0;
+    margin-bottom:30px;  
+}
+.header_menu{
+    display:flex;
+    width:100%;
+    max-width:1400px;
+    height:50px;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+}
+.header_logo--text{
+    font-family: 'Fredoka One', cursive;
+   
+}
+ a{
+    font-family: 'Roboto', sans-serif;
+     text-decoration: none;
+     font-size: 16px;
+     color:#fff;
+     font-weight: bold;
+ }
+ a:hover{
+    color:#07665E;
+ }
+ .goods{
+    grid-area:goods;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    height:85vh;
+    /*min-height:100vh;*/
+}
+.single-goods{
+    background: linear-gradient(45deg,rgba(0, 111, 119, .8), rgba(83, 130, 192, .3)), url("../images/Turkey/Antalya.jpg") no-repeat; 
+    background-size: cover;
+    width:200px;
+    height:300px;
+    border:1px solid black;
+    margin:10px;
+    /*float:left;*/
+    text-align:center;
+    box-shadow:2px 2px 2px  grey;
+    border-radius:5px;
+    color:#fff;
+    line-height:18px;
+}
+.single-goods:hover{
+    box-shadow:5px 5px 5px grey;
+}
+/*.single-goods button{
+    display:block;
+    margin:20px auto;
+}*/
+
+a{
+    font-weight:bold;
+    text-decoration:none;
+    font-size:19px;
+    color:#fff;
+}
+a:hover{
+    text-shadow:0.2px 0.2px 0.2px darkgreen;
+}
+.add-to-cart{
+    background-color:#4EC0B9;
+    color:#09376b;
+    
+}
+
+a.tel{
+    color:#fff;
+    font-size:15px;
+    letter-spacing:5px;
+}
+a.phone{
+    font-size:14px;
+}
+
+@media(max-width:1126px){
+    .footer{
+    font-size:14px;
+    }
+}
+
+@media(max-width:768px){
+    body{
+        background:url("../images/background.jpg");
+    }
+    .header{
+        font-size:12px;
+    }
+    .goods{
+        height:100vh;
+    }
+    .footer{
+        height:120px;
+        font-size:10px;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        align-items: center;
+    }
+  
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "id": "16111",
+        "Land": "Египет",
+        "URL": "https://www.tez-tour.com/hotel.html?id=595",
+        "Hotel": "BEACH ALBATROS RESORT 4 *",
+        "Date": "\"26.11.2020\"",
+        "Nights": "2",
+        "Meal": "ALL",
+        "Price": "108800"
+    },
+    {
+        "id": "16112",
+        "Land": "Египет",
+        "URL": "https://www.tez-tour.com/hotel.html?id=605",
+        "Hotel": "MARLIN INN AZUR RESORT 4 *",
+        "Date": "\"24.11.2020\"",
+        "Nights": "7",
+        "Meal": "ALL",
+        "Price": "98300"
+    },
+    {
+        "id": "16113",
+        "Land": "ОАЭ",
+        "URL": "https://www.tez-tour.com/hotel.html?id=7000702",
+        "Hotel": "OCCIDENTAL SHARJAH GRAND 4 *",
+        "Date": "\"12.12.2020\"",
+        "Nights": "7",
+        "Meal": "BB",
+        "Price": "142800"
+    },
+    {
+        "id": "16114",
+        "Land": "Турция",
+        "URL": "https://www.tez-tour.com/hotel.html?id=50771",
+        "Hotel": "AKKA ANTEDON HOTEL 5 *",
+        "Date": "\"02.12.2020\"",
+        "Nights": "7",
+        "Meal": "PALL",
+        "Price": "69600"
+    },
+     {
+        "id": "16111",
+        "Land": "Египет",
+        "URL": "https://www.tez-tour.com/hotel.html?id=595",
+        "Hotel": "BEACH ALBATROS RESORT 4 *",
+        "Date": "\"26.11.2020\"",
+        "Nights": "4",
+        "Meal": "ALL",
+        "Price": "108800"
+    },
+    {
+        "id": "16112",
+        "Land": "Египет",
+        "URL": "https://www.tez-tour.com/hotel.html?id=605",
+        "Hotel": "MARLIN INN AZUR RESORT 4 *",
+        "Date": "\"24.11.2020\"",
+        "Nights": "7",
+        "Meal": "ALL",
+        "Price": "98300"
+    },
+    {
+        "id": "16113",
+        "Land": "ОАЭ",
+        "URL": "https://www.tez-tour.com/hotel.html?id=7000702",
+        "Hotel": "OCCIDENTAL SHARJAH GRAND 4 *",
+        "Date": "\"12.12.2020\"",
+        "Nights": "7",
+        "Meal": "BB",
+        "Price": "142800"
+    },
+    {
+        "id": "16114",
+        "Land": "Турция",
+        "URL": "https://www.tez-tour.com/hotel.html?id=50771",
+        "Hotel": "AKKA ANTEDON HOTEL 5 *",
+        "Date": "\"02.12.2020\"",
+        "Nights": "7",
+        "Meal": "PALL",
+        "Price": "69600"
+    }
+ ]
