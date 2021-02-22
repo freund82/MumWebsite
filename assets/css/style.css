@@ -20,13 +20,17 @@ h1,h2,h3,h4,h5,h6{
 /*Fonts
 font-family: 'Fredoka One', cursive;
 font-family: 'Lobster', cursive;
-font-family: 'Roboto', sans-serif;*/
+font-family: 'Roboto', sans-serif;
+font-family: 'Merienda', cursive;*/
 
 main{
     display:grid;
     grid-template-columns: 1fr;
     grid-template-areas: "menu"
-                         "main_section";
+                         "main_section"
+                         "catalog_btn"
+                         "images"
+                         "about";
 }
 
 menu{
@@ -56,7 +60,7 @@ menu{
      font-weight: bold;
  }
  .main_section{
-     height:60vh;
+     height:50vh;
      width:100%;
      max-width:1400px;
      margin:0 auto;
@@ -67,9 +71,10 @@ menu{
      width:70%;
  }
  .main_text{
-    font-family: 'Lobster', cursive;
+    font-family: 'Merienda', cursive;
     /*color:#01B39E;*/
-    color:#D93A02;
+   /*color:#D93A02*/
+   color:#07665e;
     font-size:80px;
     font-weight:bold;
     line-height: 2;
@@ -98,7 +103,8 @@ menu{
     gap:20px;
 }
 .btn{
-    background:#D93A02;
+    /*background:#D93A02;*/
+    background:#07665E;
     border-radius:20px;
     padding:10px;
     color:#fff;
@@ -106,6 +112,7 @@ menu{
     font-family: 'Roboto', sans-serif;
 }
 .images{
+    grid-area:images;
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -113,8 +120,67 @@ menu{
     max-width:1400px;
     height:20vh;
     margin:0 auto;
+    margin-bottom:100px; 
 }
 img{
     width:300px;
-    border-radius:3px;
+    outline:10px solid #fff;
+}
+#catalog_btn{
+    grid-area:catalog_btn;
+    background:#07665E;
+    border-radius:20px;
+    padding:10px;
+    color:#fff;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+.about{
+    grid-area:about;
+    width:80%;
+    height:380px;
+    margin:0 auto;
+    background:rgba(1, 179, 158, 0.80);
+    margin-bottom:50px;
+}
+.about h3{
+    margin-top:50px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    margin-bottom:50px;
+}
+.about_block{
+    display:flex;
+    justify-content:space-around;
+}
+.about_block_item{
+    width:15%;
+}
+.about_block h4{
+    font-family: 'Fredoka One', cursive;
+    margin-bottom:20px;
+    text-align: center;
+}
+.about_block p{
+    font-family: 'Fredoka One', cursive;
+    margin-bottom:20px;
+    text-align: center;
+    font-size:15px;
+}
+.about_block i{
+    display:flex;
+    font-size:80px;
+    justify-content: center;
+    
+}
+
+.request{
+    width:200px;
+    height:100px;
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
 }
