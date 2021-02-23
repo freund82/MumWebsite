@@ -25,13 +25,13 @@
                 <div class="text_block">
                     <h1 class="main_text">ПУТЕШЕСТВУЙТЕ ВМЕСТЕ С НАМИ!</h1>
                 </div>
-                <form method="get" action="order.php" id="order" class="order">
+                <form method="post" action="index.html" id="order" class="order">
                     <div class="order_form">
                         <p>Оставьте заявку и получите скидку</p>
                         <div class="inputs">
                         <input type="text" name="name" placeholder="Ваше имя" required>
-                        <!--<input type="tel" placeholder="Ваш телефон" required>
-                        <input type="email" placeholder="Ваш email" required>-->
+                        <input type="tel" name="tel" placeholder="Ваш телефон" required>
+                        <input type="email" name="email" placeholder="Ваш email" required>
                         <button class="btn" type="submit">Оставить заявку</button>
                         </div>
                     </div>
