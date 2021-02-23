@@ -38,7 +38,8 @@ menu{
     grid-area:menu;
     background:rgba(1, 179, 158, 0.60);
     margin-top:0;
-    margin-bottom:30px;  
+    margin-bottom:30px;
+    padding-left:0;
 }
 .header_menu{
     display:flex;
@@ -220,7 +221,13 @@ footer{
     font-family: 'Merienda', cursive;
 }
 
-@media(max-width:768px){
+
+@media(max-width:1230px){
+    .about{
+        height:400px;
+    }
+}
+@media(max-width:770px){
     body{
         background-size:cover;
     }
@@ -231,13 +238,13 @@ footer{
         height:35vh;
     }
     .images{
-        height:40vh;
+        height:45vh;
     }
     .about{
         height:450px;
     }
 }
-@media(max-width:414px){
+@media(max-width:575px){
     .main_section{
         height:45vh;
     }
