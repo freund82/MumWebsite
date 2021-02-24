@@ -76,7 +76,7 @@ menu{
      width:70%;
  }
  .main_text{
-    font-family: 'Merienda', cursive;
+    font-family: 'Roboto', sans-serif;
     /*color:#01B39E;*/
    /*color:#D93A02*/
    color:#07665e;
@@ -168,7 +168,7 @@ img{
 .about h3{
     margin-top:20px;
     text-align: center;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto', sans-serif;
     margin-bottom:50px;
 }
 .about_block{
@@ -179,12 +179,12 @@ img{
     width:15%;
 }
 .about_block h4{
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto', sans-serif;
     margin-bottom:20px;
     text-align: center;
 }
 .about_block p{
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto', sans-serif;
     margin-bottom:20px;
     text-align: center;
     font-size:15px;
@@ -218,7 +218,7 @@ img{
 footer{
     background:rgba(1, 179, 158, 0.60);
     height:50px;
-    font-family: 'Merienda', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 
