@@ -226,36 +226,124 @@ footer{
     .about{
         height:400px;
     }
+    .images{
+        margin-bottom:300px;
+    }
+    body{
+        background-size:cover;
+    }
+}
+@media(max-width:990px){
+    .main_text{
+        font-size:60px;
+    }
+    .images{
+        gap:30px;
+        margin-bottom:350px;
+    }
 }
 @media(max-width:770px){
     body{
         background-size:cover;
     }
+   
     .main_text{
         font-size:40px;
     }
     .main_section{
         height:35vh;
     }
+    #catalog_btn{
+        margin-top:100px;
+    }
     .images{
         height:45vh;
+        margin-bottom:150px;
     }
     .about{
-        height:450px;
+        height:380px;
+    }
+    .about h3{
+        font-size:18px;
+    }
+    .about h4{
+        font-size:14px;
+    }
+    .about_block i{
+        font-size:35px;
+        margin-top:30px;
+    }
+    #fourth_Item{
+        margin-top:-6px;
+    }
+    .about_block p{
+        font-size:14px;
     }
 }
 @media(max-width:575px){
-    .main_section{
-        height:45vh;
+    .header_menu{
+        justify-content: space-around;
     }
+    .header_logo--text{
+        font-size:15px;
+    }
+    .phone i{
+        font-size:15px;
+    }
+    .phone_number{
+        font-size:15px;
+    }
+    .main_section{
+        height:50vh;
+        flex-direction:column;
+        align-items: center;
+    }
+    .main_text{
+        font-size:30px;
+    }
+
+ 
     img{
         width:290px;
         height:190px;
     }
     .images{
         height:100vh;
+        margin-bottom:200px;
+    }
+    #catalog_btn{
+        margin-top:80px;
+    }
+    .about{
+        width:95vw;
+        height:250px;
+    }
+    .about h3{
+        font-size:15px;
+        margin-bottom:15px;
+    }
+    .about h4{
+        font-size:9px;
+    }
+    .about_block i{
+        font-size:20px;
+        margin-top:30px;
+    }
+    .about_block p{
+        font-size:9px;
+    }
+    #fourth_Item{
+        margin-top:-2px;
     }
     footer{
-        height:70px;
+        width:100%;
+        height:50px;
+        font-family: 'Roboto', sans-serif;
+    }
+    footer h4{
+        font-size:11px;
+    }
+    a{
+        font-size:11px;
     }
 }

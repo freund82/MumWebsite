@@ -22,12 +22,16 @@ for (var key in data){
         }
         
         out+='<p>Цена: '+data[key]['Price']+".руб"+"*"+'</p>';
-        out+='<p class="add-to-cart" data-art="'+(data[key]['id'])+'">Заказать тур можно по телефону:<a class="phone" href="tel:+7(495)741-34-34">+7(495)741-34-34</a></p>'
+        out+='<p class="add-to-cart" data-art="'+(data[key]['id'])+'">Заказать тур можно по телефону:<a class="phone" href="tel:+7(909)681-58-12">+7(909)681-58-12</a></p>'
         //out+='<button class="add-to-cart" data-art="'+(data[key]['id'])+'">Купить</button>'
         out+='</div>'
         }
         $('#goods').html(out);
         $('button.add-to-cart').on('click', addToCart);
+        
+       
+
+        
     });
 }
 function addToCart(){
