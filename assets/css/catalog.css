@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6{
 
 .header_menu{
     width:100%;
-    max-width:1600px;
+    /*max-width:1600px;*/
     background:rgba(1, 179, 158, 0.60);
     grid-area:header_menu;
     display:flex;
@@ -58,8 +58,9 @@ h1,h2,h3,h4,h5,h6{
     height:88vh;
     
 }
+
 .single-goods{
-    background: linear-gradient(45deg,rgba(0, 111, 119, .8), rgba(83, 130, 192, .3)), url("../images/card.jpg") no-repeat; 
+    background: linear-gradient(45deg, rgb(0, 110, 121), rgb(54, 190, 174)); /*linear-gradient(45deg,rgba(255, 255, 255, .3), rgba(0, 0, 0, .6)), url("../images/card7.jpg") no-repeat;*/
     background-size: cover;
     width:200px;
     height:300px;
@@ -72,9 +73,16 @@ h1,h2,h3,h4,h5,h6{
     color:#fff;
     line-height:18px;
 }
+.single-goods a{
+    color:#2a0b99;
+}
+.single-goods a:hover{
+    color:#fff;
+}
 .single-goods:hover{
     box-shadow:5px 5px 5px grey;
 }
+
 /*.single-goods button{
     display:block;
     margin:20px auto;
@@ -107,8 +115,11 @@ footer{
     grid-area:footer;
     margin-top:10px;
     background:rgba(1, 179, 158, 0.60);
-    height:50px;
-    font-family: 'Merienda', cursive;
+    height:60px;
+    font-family: 'Roboto', sans-serif;
+}
+footer h4:first-child{
+    font-size:11px;
 }
 
 
@@ -148,10 +159,21 @@ footer{
         height:50px;
         font-size:12px;
     }
-    a{
-        font-size:12px;
+    footer a{
+        font-size:10px;
+    }
+    footer h4:first-child{
+        font-size:8px;
     }
     .goods{
         height:100%;
+    }
+    @media(max-width:380px){
+        .header_logo--text{
+            font-size:20px;
+        }  
+    }
+    footer h4:first-child{
+        font-size:8px;
     }
 }
