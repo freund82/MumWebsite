@@ -116,6 +116,9 @@ menu{
     font-size:15px;
     font-family: 'Roboto', sans-serif;
 }
+.btn:hover{
+    background:#012522;
+}
 .images{
     grid-area:images;
     display:flex;
@@ -156,6 +159,48 @@ img{
     font-weight:bold;
     margin:0 auto;
     margin-bottom:50px;
+}
+#catalog_btn:hover{
+    background:#012522;
+}
+#plane{
+    display:none;
+    font-size:50px;
+    position:absolute;
+    z-index:1000;
+    top:55%;
+    left:40%;
+    transform:rotateZ(60deg);
+    animation:flight;
+    animation-duration:5s;
+    animation-iteration-count: infinity;
+}
+@keyframes flight{
+    from{
+        
+        top:55%;
+        left:40%;
+        transform:rotateZ(60deg);
+        animation-timing-function: ease-out;
+    }
+    20%{
+        top:55%;
+        left:50%;
+        filter:opacity(95%);
+        
+    }
+    55%{
+        top:55%;
+        left:60%;
+        filter:opacity(90%);
+    }
+    to{
+        top:0%;
+        left:90%;
+        filter:opacity(50%);
+        transform:rotateZ(-10deg);
+    }
+    
 }
 .about{
     grid-area:about;
