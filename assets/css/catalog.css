@@ -185,6 +185,12 @@ footer h4:first-child{
         footer h4:first-child{
             font-size:8px;
         }
+        footer a{
+            font-size:12px;
+        }
+        footer{
+            height:60px;
+        }
     }
     
 }
